@@ -6,7 +6,7 @@
   <title>My Portfolio</title>
 
   <style>
-    /* --- GENERAL STYLES --- */
+    
     body {
       font-family: Arial, sans-serif;
       margin: 0;
@@ -17,7 +17,7 @@
       transition: background-color 0.3s ease, color 0.3s ease;
     }
 
-    /* --- HEADER --- */
+    /*HEADER*/
     .header {
       display: flex;
       align-items: center;
@@ -48,7 +48,7 @@
       color: #ddd;
     }
 
-    /* --- MAIN CONTENT --- */
+    /*MAIN CONTENT*/
     .container {
       padding: 40px;
     }
@@ -91,7 +91,7 @@
       text-align: justify;
     }
 
-    /* --- COLOR BOX --- */
+    /*COLOR BOX*/
     .color-box-container {
       position: absolute;
       top: 30px;
@@ -124,7 +124,7 @@
       background-color: #555;
     }
 
-    /* --- DARK MODE --- */
+    /*DARK MODE*/
     body.dark-mode {
       background-color: #121212;
       color: #e0e0e0;
@@ -155,7 +155,7 @@
       background-color: #777;
     }
 
-    /* --- DARK MODE BUTTON CONTAINER --- */
+    /*DARK MODE BUTTON CONTAINER*/
     .dark-mode-container {
       text-align: center;
       margin-top: 20px;
@@ -165,7 +165,7 @@
 
 <body>
 
-  <!-- HEADER -->
+  <!--HEADER-->
   <div class="header">
     <img src="c:\Users\joshu\Downloads\feslak.jpg" alt="Frank Miguel Y. Sarol">
     <div class="header-text">
@@ -174,13 +174,13 @@
     </div>
   </div>
 
-  <!-- COLOR BUTTON -->
+  <!--COLOR BUTTON-->
   <div class="color-box-container">
     <div id="colorBox"></div>
     <button onclick="changeColor()">Change Color</button>
   </div>
 
-  <!-- MAIN CONTENT -->
+  <!--MAIN CONTENT-->
   <div class="container">
 
     <div class="section">
@@ -213,14 +213,13 @@
       </div>
     </div>
 
-    <!-- DARK MODE BUTTON (UNDER CONTACT ME) -->
     <div class="dark-mode-container">
       <button onclick="toggleDarkMode()">Dark Mode</button>
     </div>
 
   </div>
 
-  <!-- JAVASCRIPT -->
+  <!--JAVASCRIPT-->
   <script>
     function changeColor() {
       const colors = ["red", "blue", "green", "purple", "orange", "pink", "teal"];
@@ -235,3 +234,4 @@
 
 </body>
 </html>
+
